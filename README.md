@@ -1,4 +1,4 @@
-# 🌍 Carbon Footprint Calculator
+# Carbon Footprint Calculator
 
 The **Carbon Footprint Calculator** is a modern, interactive web application that helps users estimate their total carbon emissions based on lifestyle choices. With a clean UI and smooth animations, this tool offers an engaging experience while promoting sustainability and awareness.
 
