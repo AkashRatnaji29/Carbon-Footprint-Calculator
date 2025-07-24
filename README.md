@@ -24,8 +24,7 @@ After completing the form, the app calculates the user's total **carbon footprin
 - 🗂️ **Organized Tabs** for seamless user input
 - 🎨 **Modern UI** with animated transitions (Framer Motion)
 - 💡 **Eco-Friendly Tips** to reduce emissions
-- 🌗 **Light/Dark Mode Support**
-- 💾 Upcoming: Save, share, and export results as PDF
+
 
 ---
 
@@ -37,6 +36,6 @@ After completing the form, the app calculates the user's total **carbon footprin
 | Styling     | **Tailwind CSS**, **ShadCN UI**                          |
 | Animations  | **Framer Motion**                                        |
 | Charts      | **Recharts**                                             |
-| Design      | Responsive layout, sliders, dropdowns, +/− buttons       |
+
 
 
