@@ -13,15 +13,22 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",                // ✅ Required for paths alias
+    "paths": {
+      "@/*": ["./*"]               // ✅ Maps @/components/... correctly
+    },
     "plugins": [
       {
         "name": "next"
       }
-    ],
-    "paths": {
-      "@/*": ["./*"]
-    }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components.d.ts"             // ✅ Optional: If you're using ShadCN auto-generated components
+  ],
   "exclude": ["node_modules"]
 }
